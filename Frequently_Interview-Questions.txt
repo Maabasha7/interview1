@@ -1,0 +1,189 @@
+RUSHI INFOTECH SELECTED INTERVIEW QUESTIONS
+
+
+1.Diff b/w git and svn
+2.what is conflict error
+3.git pull, fetch and git merge
+4.what is git stash
+
+5.List out maven goals
+6.how to set java and maven environmental variables
+7.Have u created Pom.xml?
+
+8. where do you deploy warfile in tomcat
+9.what is 401 error
+10.How to you resolve 403 error
+
+11.what is Ci cd
+12how does your cicd pipeline looks like
+13.types of build trigger
+14.Have u implemeted master and slave concept in your projects.
+15 how to you take jenkins job backups
+16.what type of plugins have u used i n your projects
+
+17.what is diff b/w virtulization and containerization
+18.what is docker swarm
+19.what is image
+20.How container is created
+21.where do you store docker images
+22.have u written docker compose file
+23.what are the adifferent arguments used in dockerfile
+
+24.what is ansible
+25.Diff b/w chef and ansible
+26.what is inventory file in ansible
+27.ansible architecure
+28.How ansible works
+29.steps to configure passwordless authentication
+30.what are the different adhoc commands used
+31.what kind of playbooks have u written
+32.what is ansible roles
+
+
+33.which monitoring tool u have used and how did u configured that
+34.which programming knowledge do u know
+35.what kind of shell script have u written
+36.learn some shell script basics
+
+37.what kind of databases do u have knowledge
+38.have to taken backups ?
+
+39.Recent techonologies u have learnt and implemented in your projects
+
+
+
+1. What is Kubernetes
+
+Kubernetes is one of the Leading open source Container Orchestration Engine. It is used to automatic cluster deployment, scaling and manage containerized applications.
+
+2. What is difference between Docker Swarm and Kubernetes
+
+Docker Swarm	Kubernetes
+It is Clustering for Docker Container	              It is Container Orchestration
+Setup is Easy	                                        Setup is Hard
+Application deployment using Pods, Deployments and Service	Application deployment using only Service
+Auto scaling is Not Possible	                    Auto scaling is possible
+                                       It has no GUI Dashboard	It has GUI Dashboard
+It supports logging and monitoring using ELK Stack,Grafana,Influx,etc.	It does not support
+
+
+3. What is Kubeadm
+
+Kubeadm helps for installing and configuring Kubernetes cluster using command line.
+
+4. What are Kubeadm commands ?
+
+Command Name	Purpose
+kubeadm init	Used on Master node and It is used to initialize and configure any node as a master node.
+kubeadm join	Used on worker node and It is used to initialize and configure any node as worker node.
+kubeadm token	It is used to genrate token.
+kubeadm version	It used to check kubeadm version.
+5. What are Kubernetes Cluster components on Master node
+
+API Server, Scheduler, Controller Manager, ETCD
+
+6. What are Kubernetes Cluster components on Worker node
+
+Kubelet, Kubeproxy, Pods, Container
+
+7. What is API Server
+
+It is used to exposing various API’s. It is used to create,delete and update any object inside the cluster using kubectl command. API objects can be pods,containers,deployments,services..etc.
+
+8. What is Scheduler ?
+
+Scheduler is responsible for physically scheduling pods across multiple nodes, depending upon when we submit requirement to API server, scheduler schedules pod accordingly.
+
+9. What is Controller Manager?
+
+It is responsible overall health of entire cluster such as no of nodes insides the  cluster, up and running status as per specification.
+
+10. What is ETCD
+
+etcd is light weight key-value database, it stores information like about current state of cluster,..etc.
+
+11. What is Worker node in Kubernetes?
+
+Worker node can be any Physical Server or Virtual Machine where containers are deployed , containers can be docker,rocket,.etc.
+
+12. What is Kubelet ?
+
+Kubelet is primary agent which runs on each worker node.It ensures containers are running in pod.
+
+13. What is Kubeproxy?
+
+It is core Networking component of Kubernetes cluster, it is responsible for entire network configuration, it maintains distributed network across all containers, pods and nodes.
+
+14. What is Pod?
+
+Pod is scheduling unit in Kubernetes, it consists of one or more container. With the help of pod we can deploy one or more container.
+
+15. What are the different types of services in Kubernetes ?
+
+
+ 
+Below are different types of services in Kubernetes
+
+
+ 
+Cluster IP –   It is used to expose the service on internal IP within cluster.
+
+Node Port – It is used to expose the service from outside.
+
+Load Balancer – It creates external load balancer and assigns external IP to service.
+
+External Name Creating – It is used expose the service using name.
+
+16. What is the difference between deployment and service in Kubernetes ?
+
+Deployment is an object in Kubernetes, using Deployment we can create and manage pods using replica set from template.
+
+Deployment manages creating Pods using of Replica Sets
+
+Service is responsible to allow network access to a set of pods.
+
+17. What is the difference between pod and deployment in Kubernetes?
+
+Pod is scheduling unit in Kubernetes, it consists of one or more container. With the help of pod we can deploy one or more container.
+
+
+ 
+Deployment is an object in Kubernetes, using Deployment we can create and manage pods using replica set from template.
+
+Both are objects in the Kubernetes API
+
+18. What is the difference between config map and secrets in Kubernetes?
+
+Config maps stores application configuration in a plain text format.
+
+Secrets store sensitive data like password in an encrypted format
+
+19. What is namespace in Kubernetes?
+
+Using namespace, we can logically organize objects in the cluster like pod and deployments. When you create Kubernetes cluster , default, kube-system and kube-public namespace are available.
+
+20. What is ingress in Kubernetes?
+
+Ingress is a collection of routing rules for external services running in a Kubernetes cluster.
+
+
+
+aws:
+61.what is aws
+62.which services have u used in aws
+63.can do you resize instance type
+64.can u decresae volume size
+65.what is snapshot
+66.what is diff b.w volumes and s3
+67.what is load balancers
+68.different types of load balancers
+69.what is autoscaling
+70.why we have to implement autoscaling
+71.what is iam
+72.wht is ami
+73.what is elastic IP
+74.what is VPC
+75.Different versions of tools
+ and 
+apart from this do self Learning and All THE Best Guys
+
